@@ -1,0 +1,42 @@
+{
+  "DiskProvisioning": "thin",
+  "IPAllocationPolicy": "dhcpPolicy",
+  "IPProtocol": "IPv4",
+  "PropertyMapping": [
+    {
+      "Key": "instance-id",
+      "Value": "id-ovf"
+    },
+    {
+      "Key": "hostname",
+      "Value": ""
+    },
+    {
+      "Key": "seedfrom",
+      "Value": ""
+    },
+    {
+      "Key": "public-keys",
+      "Value": ""
+    },
+    {
+      "Key": "user-data",
+      "Value": "I2Nsb3VkLWNvbmZpZwpwYWNrYWdlX3VwZGF0ZTogdHJ1ZQpwYWNrYWdlX3VwZ3JhZGU6IHRydWUKcGFja2FnZXM6CiAgLSBjdXJsCiAgLSB3Z2V0CiAgLSBnaXQKICAtIG5ldC10b29scwogIC0gemlwCiAgLSB1bnppcAogIC0gYXBwYXJtb3ItdXRpbHMKICAtIGNhLWNlcnRpZmljYXRlcwogIC0gY2xvdWQtZ3Vlc3QtdXRpbHMKICAtIGNsb3VkLWltYWdlLXV0aWxzCiAgLSBjbG91ZC1pbml0cmFtZnMtZ3Jvd3Jvb3QKICAtIG9wZW4taXNjc2kKICAtIG5mcy1jb21tb24KICAtIG9wZW5zc2gtc2VydmVyCiAgLSBvcGVuLXZtLXRvb2xzCgpncm91cHM6CiAgLSBkb2NrZXIKCnVzZXJzOgogIC0gbmFtZTogdWJ1bnR1CiAgICBncm91cHM6IFt1c2Vycywgc3VkbywgZG9ja2VyXQogICAgc3VkbzogQUxMPShBTEwpIE5PUEFTU1dEOkFMTAogICAgc3NoX2F1dGhvcml6ZWRfa2V5czoKICAgICAgLSBzc2gtcnNhIEFBQUFCM056YUMxeWMyRUFBQUFEQVFBQkFBQUJnUUMzRHZHdnl5RzJJYTRGMkZ3cFE5NUtkLzh2Tmk5U1NWSkdXQkU2ajRpZ1Q1ZGZlR2k1bTJrWWdzQ3cxVUJWdzgrQmVUVDFjWTFwZjZJKytOVExYRXExeDlrRkFUNVBNTTRiMzhiQVFFYlliS0tvQkdveGliMXExWnJyRmp1VTJjNU11VHk2aVUwb2FKbVpsY0lOeGx3ajlUVFcybGVzOUpKUVV5SEZjSG1CT3RXODNKN3NrV09vMS9SYjNzNmNRTlI4TlJ3Uk9xQVhESnluMURUeDRBWWJlVWlUMGwzNFQySWJvY0dMbldwRU5ZUUhMMGIyVFZyWHJicHUxbjFGc3ZCbnBiWjYya2VlNHhienFjVDN6VEhWQno3cXRRS1FkNXY3VnNhN1JTSkh2eUFPVUlSbS92YVJrUEhKUTJxZWg1bFo5eHM5NTlUN1MyUnBqbU5hNUs2YkRJYllINi9BUUJpaWI3c29tRXJmd05KMGtvR1ZRelFXZCtLZ2tzOExxMUNYL2tkVVhaVWd6MlpFYzg2ODdTdUxIMkpPbWJVc1kweThMMUl5RHFSRzdGdVlhWGY5RUtISzZYNHNGQTBnenM4OFNPTWhtQWxvaWVNcHNFL2l6Qk0xUzN6WVBYS0JyNGV1Z0J3U2o3cnl4T1ZkM3EyV2Z1ZmhObXlickJIdis3TT0gaW5mb0BwZW5ndWluCiAgICBsb2NrX3Bhc3N3ZDogZmFsc2UKICAgIHNoZWxsOiAvYmluL2Jhc2gK"
+    },
+    {
+      "Key": "password",
+      "Value": "Password01"
+    }
+  ],
+  "NetworkMapping": [
+    {
+      "Name": "VM Network",
+      "Network": "VLAN14-Server"
+    }
+  ],
+  "MarkAsTemplate": false,
+  "PowerOn": false,
+  "InjectOvfEnv": false,
+  "WaitForIP": false,
+  "Name": null
+}

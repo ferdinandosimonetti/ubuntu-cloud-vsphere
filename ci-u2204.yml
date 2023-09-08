@@ -1,0 +1,31 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+packages:
+  - curl
+  - wget
+  - git
+  - net-tools
+  - zip
+  - unzip
+  - apparmor-utils
+  - ca-certificates
+  - cloud-guest-utils
+  - cloud-image-utils
+  - cloud-initramfs-growroot
+  - open-iscsi
+  - nfs-common
+  - openssh-server
+  - open-vm-tools
+
+groups:
+  - docker
+
+users:
+  - name: ubuntu
+    groups: [users, sudo, docker]
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3DvGvyyG2Ia4F2FwpQ95Kd/8vNi9SSVJGWBE6j4igT5dfeGi5m2kYgsCw1UBVw8+BeTT1cY1pf6I++NTLXEq1x9kFAT5PMM4b38bAQEbYbKKoBGoxib1q1ZrrFjuU2c5MuTy6iU0oaJmZlcINxlwj9TTW2les9JJQUyHFcHmBOtW83J7skWOo1/Rb3s6cQNR8NRwROqAXDJyn1DTx4AYbeUiT0l34T2IbocGLnWpENYQHL0b2TVrXrbpu1n1FsvBnpbZ62kee4xbzqcT3zTHVBz7qtQKQd5v7Vsa7RSJHvyAOUIRm/vaRkPHJQ2qeh5lZ9xs959T7S2RpjmNa5K6bDIbYH6/AQBiib7somErfwNJ0koGVQzQWd+Kgks8Lq1CX/kdUXZUgz2ZEc8687SuLH2JOmbUsY0y8L1IyDqRG7FuYaXf9EKHK6X4sFA0gzs88SOMhmAloieMpsE/izBM1S3zYPXKBr4eugBwSj7ryxOVd3q2WfufhNmybrBHv+7M= info@penguin
+    lock_passwd: false
+    shell: /bin/bash
