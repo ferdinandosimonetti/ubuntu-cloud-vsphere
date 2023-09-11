@@ -1,0 +1,42 @@
+{
+  "DiskProvisioning": "thin",
+  "IPAllocationPolicy": "dhcpPolicy",
+  "IPProtocol": "IPv4",
+  "PropertyMapping": [
+    {
+      "Key": "instance-id",
+      "Value": "id-ovf"
+    },
+    {
+      "Key": "hostname",
+      "Value": ""
+    },
+    {
+      "Key": "seedfrom",
+      "Value": ""
+    },
+    {
+      "Key": "public-keys",
+      "Value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3DvGvyyG2Ia4F2FwpQ95Kd/8vNi9SSVJGWBE6j4igT5dfeGi5m2kYgsCw1UBVw8+BeTT1cY1pf6I++NTLXEq1x9kFAT5PMM4b38bAQEbYbKKoBGoxib1q1ZrrFjuU2c5MuTy6iU0oaJmZlcINxlwj9TTW2les9JJQUyHFcHmBOtW83J7skWOo1/Rb3s6cQNR8NRwROqAXDJyn1DTx4AYbeUiT0l34T2IbocGLnWpENYQHL0b2TVrXrbpu1n1FsvBnpbZ62kee4xbzqcT3zTHVBz7qtQKQd5v7Vsa7RSJHvyAOUIRm/vaRkPHJQ2qeh5lZ9xs959T7S2RpjmNa5K6bDIbYH6/AQBiib7somErfwNJ0koGVQzQWd+Kgks8Lq1CX/kdUXZUgz2ZEc8687SuLH2JOmbUsY0y8L1IyDqRG7FuYaXf9EKHK6X4sFA0gzs88SOMhmAloieMpsE/izBM1S3zYPXKBr4eugBwSj7ryxOVd3q2WfufhNmybrBHv+7M= info@penguin"
+    },
+    {
+      "Key": "user-data",
+      "Value": "I2Nsb3VkLWNvbmZpZwpwYWNrYWdlX3VwZGF0ZTogdHJ1ZQpwYWNrYWdlX3VwZ3JhZGU6IHRydWUKcGFja2FnZXM6CiAgLSBjdXJsCiAgLSB3Z2V0CiAgLSBnaXQKICAtIG5ldC10b29scwogIC0gemlwCiAgLSB1bnppcAogIC0gYXBwYXJtb3ItdXRpbHMKICAtIGNhLWNlcnRpZmljYXRlcwogIC0gY2xvdWQtZ3Vlc3QtdXRpbHMKICAtIGNsb3VkLWltYWdlLXV0aWxzCiAgLSBjbG91ZC1pbml0cmFtZnMtZ3Jvd3Jvb3QKICAtIG9wZW4taXNjc2kKICAtIG5mcy1jb21tb24KICAtIG9wZW5zc2gtc2VydmVyCiAgLSBvcGVuLXZtLXRvb2xzCg=="
+    },
+    {
+      "Key": "password",
+      "Value": "Password01"
+    }
+  ],
+  "NetworkMapping": [
+    {
+      "Name": "VM Network",
+      "Network": "VLAN14-Server"
+    }
+  ],
+  "MarkAsTemplate": false,
+  "PowerOn": false,
+  "InjectOvfEnv": false,
+  "WaitForIP": false,
+  "Name": null
+}
